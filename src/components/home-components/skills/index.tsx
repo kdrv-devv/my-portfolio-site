@@ -17,7 +17,7 @@ const Skills = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElem
         className={`skills bg-[#161616] pb-[50px] ${props.className ?? ""}`}
       >
         <div className="container text-[10px] pt-[48px] flex flex-col gap-[70px] max-[379px]:text-[9px] max-[450px]:gap-[40px]">
-          <h3 className="text-[#70ff00] sanserif text-[5.9em] font-[700]">
+          <h3 aria-label="Skills" className="text-[#70ff00] sanserif text-[5.9em] font-[700]">
             skills<span className="sanserif text-[#fff]">()</span>
           </h3>
 

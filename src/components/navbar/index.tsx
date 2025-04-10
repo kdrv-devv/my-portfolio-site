@@ -31,31 +31,30 @@ const Navbar: React.FC<NavbarProps> = ({
         <Link to={"/"}>
           <h1 className="text-[5em] inline-block   max-[376px]:text-[4em] font-[700] text-[#f2f2f2] relative">
             KADIROV<span className="text-[#f7e018]">JS</span>
-            
           </h1>
         </Link>
 
         <nav className="header-center max-[740px]:hidden flex items-center gap-[2em] text-[2em] font-[700] text-[#fff] ">
-          <button onClick={scrollToAbout} className="nav-hover ">
+          <button aria-label="About button" onClick={scrollToAbout} className="nav-hover ">
             About
           </button>
 
-          <button onClick={scrollToSkills} className="nav-hover ">
+          <button aria-label="Skills button" onClick={scrollToSkills} className="nav-hover ">
             Skills
           </button>
-          <button onClick={scrollToProjects} className="nav-hover ">
+          <button aria-label="Projects button" onClick={scrollToProjects} className="nav-hover ">
             Projects
           </button>
         </nav>
 
         <nav className="header-right flex  items-center gap-[2em] ">
-          <button className="nav-hover  flex items-center gap-[0.5em] justify-center text-[#fff] bg-transparent text-[2em] font-[700]">
+          <button aria-label="Linkedin button" className="nav-hover  flex items-center gap-[0.5em] justify-center text-[#fff] bg-transparent text-[2em] font-[700]">
             <BsLinkedin className="text-[1.5em]" />
             Linkedin
           </button>
           <a href="https://github.com/kdrv-devv" target="_blank">
             {" "}
-            <button className="nav-hover  flex items-center gap-[0.5em] justify-center text-[#fff] bg-transparent text-[2em] font-[700]">
+            <button aria-label="Github link button" className="nav-hover  flex items-center gap-[0.5em] justify-center text-[#fff] bg-transparent text-[2em] font-[700]">
               <FaGithub className="text-[1.5em]" />
               Github
             </button>
@@ -70,6 +69,7 @@ const Navbar: React.FC<NavbarProps> = ({
       >
         <BottomNavigationAction
           label="Home"
+          aria-label="home button"
           onClick={scrollToShowcase}
           icon={<HomeIcon/>}
           className="!orbitron"
@@ -81,6 +81,7 @@ const Navbar: React.FC<NavbarProps> = ({
         />
         <BottomNavigationAction
           label="About"
+          aria-label="about button"
           onClick={scrollToAbout}
           icon={<InfoIcon />}
           sx={{
@@ -90,6 +91,7 @@ const Navbar: React.FC<NavbarProps> = ({
         />
         <BottomNavigationAction
           label="Skills"
+          aria-label="Skills button"
           onClick={scrollToSkills}
           icon={<CodeIcon />}
           sx={{
@@ -100,6 +102,7 @@ const Navbar: React.FC<NavbarProps> = ({
 
         <BottomNavigationAction
           label="Projects"
+          aria-label="projects button"
           onClick={scrollToProjects}
           icon={<FolderCopyIcon />}
           sx={{

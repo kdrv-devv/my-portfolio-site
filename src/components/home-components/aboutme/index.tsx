@@ -16,7 +16,7 @@ const Aboutme = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivEle
                 <div className="aboutme-right   items-end flex flex-col gap-[9px] text-[10px] w-[45%] max-[1270px]:text-[8px]  max-[1133px]:text-[7px] max-[1029px]:text-[6px] max-[858px]:text-[5px]  max-[774px]:w-full" >
                     <div className="right-item1 p-[3em]  rounded-[6px] flex items-center justify-between w-[90%] h-[13.7em] bg-[#4f4f4f]  max-[774px]:w-full ">
                             <div className="flex flex-col gap-[1.5em]">
-                                    <h5 className="text-[3.3em] font-[700] text-[#fff]">Frontend Developer</h5>
+                                    <h5 aria-label='Frontend-developer' className="text-[3.3em] font-[700] text-[#fff]">Frontend Developer</h5>
                                   <a href="https://github.com/kdrv-devv"><h6 className="underline text-[2.5em] font-[400] text-[#6cee07]">Projects</h6></a>  
                             </div>
                             <img src={codeimg} alt="code img" />
@@ -25,11 +25,11 @@ const Aboutme = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivEle
                  
                     <div className="right-item2 p-[3em]  rounded-[6px] flex items-center justify-between w-[90%] h-[13.7em] bg-[#4f4f4f]  max-[774px]:w-full ">
                             <div className="flex flex-col gap-[1.5em]">
-                                    <h5 className="text-[3.3em] font-[700] text-[#fff]">Teacher</h5>
-                                <a href="https://t.me/sarvarbek_qodirovv" target='_blank'> <h6 className="underline text-[2.5em] font-[400] text-[#6cee07]">Hire me!</h6></a>
+                                    <h5 aria-label='Teacher' className="text-[3.3em] font-[700] text-[#fff]">Teacher</h5>
+                                <a href="https://t.me/sarvarbek_qodirovv" target='_blank'> <h6 aria-label='hire me' className="underline text-[2.5em] font-[400] text-[#6cee07]">Hire me!</h6></a>
                                    
                             </div>
-                            <img src={qavs} alt="code img" />
+                            <img src={qavs} alt="code img"  />
                     </div>
                  
                 </div>
