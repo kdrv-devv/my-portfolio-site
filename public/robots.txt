@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kadirov-js.uz/sitemap.xml
