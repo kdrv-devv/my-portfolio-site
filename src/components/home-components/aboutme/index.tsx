@@ -27,7 +27,8 @@ const Aboutme = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivEle
                     <div className="right-item2 p-[3em]  rounded-[6px] flex items-center justify-between w-[90%] h-[13.7em] bg-[#4f4f4f]  max-[774px]:w-full ">
                             <div className="flex flex-col gap-[1.5em]">
                                     <h5 className="text-[3.3em] font-[700] text-[#fff]">Teacher</h5>
-                                    <Link to={"/projects"}><h6 className="underline text-[2.5em] font-[400] text-[#6cee07]">Hire me!</h6></Link>
+                                <a href="https://t.me/sarvarbek_qodirovv" target='_blank'> <h6 className="underline text-[2.5em] font-[400] text-[#6cee07]">Hire me!</h6></a>
+                                   
                             </div>
                             <img src={qavs} alt="code img" />
                     </div>
