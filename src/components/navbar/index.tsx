@@ -65,7 +65,6 @@ const Navbar: React.FC<NavbarProps> = ({
       <BottomNavigation
         showLabels
         value={value}
-        onChange={(event, newValue) => setValue(newValue)}
         className="!hidden max-[740px]:!flex fixed bottom-0 orbitron w-full  !bg-[#414141] !text-white"
       >
         <BottomNavigationAction

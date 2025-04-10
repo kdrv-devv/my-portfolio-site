@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import codeimg from '../../../img/code.svg'
 import qavs from '../../../img/qavs.svg'
 import React from "react"
