@@ -15,6 +15,7 @@ const Home = () => {
   return (
     <>
       <Navbar
+
         scrollToSkills={() =>
           skillsRef.current?.scrollIntoView({ behavior: "smooth" })
         }
@@ -23,6 +24,9 @@ const Home = () => {
         }
         scrollToProjects={() =>
           projectsRef.current?.scrollIntoView({ behavior: "smooth" })
+        }
+        scrollToShowcase={() =>
+          showcaseRef.current?.scrollIntoView({ behavior: "smooth" })
         }
       />
       <Showcase ref={showcaseRef} />

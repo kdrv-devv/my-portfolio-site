@@ -15,7 +15,7 @@ const Footer = () => {
               </h1>
             </Link>
 
-            <div className="footer-top-right text-[10px] gap-[40px] flex items-center max-[736px]:text-[9px] max-[690px]:text-[7px] max-[580px]:flex-col max-[580px]:gap-[0px] max-[580px]:items-end max-[428px]:items-start">
+            <div className="footer-top-right text-[10px] gap-[40px] flex items-center max-[736px]:text-[9px] max-[690px]:text-[7px] max-[580px]:flex-col max-[580px]:gap-[0px] max-[580px]:items-end max-[428px]:items-start max-[429px]:w-full max-[429px]:justify-between max-[429px]:flex-row">
                     <a className="text-[1.3em] font-[400] text-[#a7a7a7]" href="tel:+998979661575">+998 97 966 1575</a>
 
                     <div className="flex items-center gap-[2em] ">

@@ -8,7 +8,7 @@ import rightlittledot from "../../img/showcase-right-little-dot.svg";
 import meimg from "../../img/my-img.jpg";
 
 const Showcase = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
-  (props, ref) => {
+  (props, ref)  => {
     return (
       <section
         ref={ref}
