@@ -21,12 +21,12 @@ const Footer = () => {
                     <div className="flex items-center gap-[2em] ">
                     <a className="text-[1.3em] font-[400] text-[#a7a7a7]" href="mailto:ffeodalik@gmail.com">ffeodalik@gmail.com</a>
 
-                    <div className="social-icons flex items-center gap-[0.7em] text-[2em] text-[#a7a7a7]">
-                              <a href="https://github.com/kdrv-devv" target="_blank">   <button><FaGithub />
+                    <div className="social-icons flex items-center gap-[1em] text-[2em] text-[#a7a7a7]">
+                              <a href="https://github.com/kdrv-devv" target="_blank">   <button aria-label="github profile"><FaGithub />
                               </button></a>
                               
                             <a href="https://t.me/sarvarbek_qodirovv" target="_blank">
-                            <button><FaTelegram />
+                            <button aria-label="Telegram profile"><FaTelegram />
                             </button>
                             </a>
                     </div>
