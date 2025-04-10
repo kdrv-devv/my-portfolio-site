@@ -22,7 +22,6 @@ const Navbar: React.FC<NavbarProps> = ({
   scrollToAbout,
   scrollToProjects,
 }) => {
-  const [value, setValue] = React.useState(0);
   return (
     <header className=" header sticky top-0 z-20 shadow-[0px_4px_10px_rgba(0,0,0,0.2)]">
       <div className="container  gap-[10px] flex items-center justify-between py-[25px] text-[10px] max-[1027px]:text-[8px]  max-[826px]:text-[7px] max-[800px]:py-[20px] max-[558px]:text-[6px] max-[508px]:text-[5px]  max-[317px]:text-[4.6px]">
@@ -64,7 +63,6 @@ const Navbar: React.FC<NavbarProps> = ({
       {/*  Bottom navigation*/}
       <BottomNavigation
         showLabels
-        value={value}
         className="!hidden max-[740px]:!flex fixed bottom-0 orbitron w-full  !bg-[#414141] !text-white"
       >
         <BottomNavigationAction
