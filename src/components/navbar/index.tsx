@@ -27,8 +27,9 @@ const Navbar: React.FC<NavbarProps> = ({
     <header className=" header sticky top-0 z-20 shadow-[0px_4px_10px_rgba(0,0,0,0.2)]">
       <div className="container  gap-[10px] flex items-center justify-between py-[25px] text-[10px] max-[1027px]:text-[8px]  max-[826px]:text-[7px] max-[800px]:py-[20px] max-[558px]:text-[6px] max-[508px]:text-[5px]  max-[317px]:text-[4.6px]">
         <Link to={"/"}>
-          <h1 className="text-[5em] max-[376px]:text-[4em] font-[700] text-[#f2f2f2]">
+          <h1 className="text-[5em] max-[376px]:text-[4em] font-[700] text-[#f2f2f2] relative">
             KADIROV<span className="text-[#f7e018]">JS</span>
+            <div className="w-[25px] h-[12px] flex items-center justify-center  text-[black] rounded-sm bg-[#f7e018] absolute top-3 right-[-26px]"><p className="text-[8px]">beta</p></div>
           </h1>
         </Link>
 
