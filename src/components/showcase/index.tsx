@@ -18,11 +18,11 @@ const Showcase = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivEl
         <div className="container flex items-center justify-between max-[774px]:flex-col max-[774px]:gap-[30px] max-[348px]:gap-[20px]">
           {/* Left Side */}
           <div className="showcase-left max-[774px]:order-2 flex flex-col gap-[20px] text-[10px] w-[50%] max-[1270px]:text-[7px] max-[1031px]:text-[5px] max-[774px]:w-full max-[774px]:items-center max-[774px]:gap-0 max-[563px]:text-[4px] max-[448px]:text-[3.1px] max-[348px]:text-[2.9px]">
-            <h5 aria-label="hello i'm" className="text-[3.9em] font-[700] text-[#e0e0e0]">Hello, I am</h5>
-            <h2 className="text-[7.8em] w-[100%] text-[#70FF00] max-[774px]:w-auto font-[700]">
+            <h5 aria-label="hello i'm" className="text-[3.9em] font-[700] text-[#e0e0e0] inline-flex animate-text-gradient bg-gradient-to-r from-[#acacac] via-[#363636] to-[#ACACAC] bg-[200%_auto]  text-transparent  bg-clip-text">Hello, I am</h5>
+            <h2 className="text-[7.8em] w-[100%]  max-[774px]:w-auto font-[700]   inline-flex animate-text-gradient bg-gradient-to-r from-[#a4ff5e] via-[#60d507] to-[#61d806] bg-[200%_auto]   text-transparent  bg-clip-text">
               {"< Qodirov Sarvarbek />"}
             </h2>
-            <h3 aria-label="Frontend developer" className="text-[5.7em] text-[#e0e0e0] font-[700] max-[774px]:text-center">
+            <h3 aria-label="Frontend developer" className="text-[5.7em] text-[#e0e0e0] font-[700] max-[774px]:text-center ">
               Frontend Developer
             </h3>
           </div>
