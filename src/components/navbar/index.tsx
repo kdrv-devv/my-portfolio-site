@@ -32,6 +32,7 @@ const Navbar: React.FC<NavbarProps> = ({
           <h1 className="text-[5em] inline-block   max-[376px]:text-[4em] font-[700] text-[#f2f2f2] relative">
             KADIROV<span className="text-[#f7e018]">JS</span>
           </h1>
+          
         </Link>
 
         <nav className="header-center max-[740px]:hidden flex items-center gap-[2em] text-[2em] font-[700] text-[#fff] ">
