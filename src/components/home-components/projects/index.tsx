@@ -36,21 +36,7 @@ const Projects =React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivEle
               </div>
              </a>
 
-
-             <span
-  className="inline-flex animate-text-gradient bg-gradient-to-r from-[#ACACAC] via-[#363636] to-[#ACACAC] bg-[200%_auto] text-3xl text-center text-transparent font-medium bg-clip-text"
->
-  Text Animated Gradient
-</span>
-
-<h1
-  className="text-3xl font-medium inline-flex animate-shine bg-[linear-gradient(110deg,#939393,45%,#1e2631,55%,#939393)] bg-[length:200%_100%] text-transparent bg-clip-text"
->
-  Text Shine
-</h1>
-
-
-          
+            
            
         </div>
       </div>
