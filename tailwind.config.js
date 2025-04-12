@@ -8,7 +8,7 @@ export default {
     extend: {
       animation: {
         shine: "shine 4s linear infinite",
-        "pop-blob": "pop-blob 8s infinite",
+        "pop-blob": "pop-blob 6s infinite",
       },
       keyframes: { 
        shine: {
