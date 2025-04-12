@@ -20,6 +20,7 @@ const Projects =React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivEle
              <a aria-label='Project tosh-qaychi-qogoz' href="https://tosh-qaychi-qogoz.vercel.app" target="_blank">
              <div className="relative cursor-pointer group projects-item w-[30em]  h-[23em] rounded-md border-4  border-white hover:border-[#70ff00] transition-all ">
                 <img src={toshqaychi} alt="Tosh qaychi qog'oz o'yini" className="!w-[100%] !h-[100%]" />
+               
                 <div className = "w-full h-full   hidden group-hover:flex  items-center justify-center left-0 top-0   backdrop-blur-sm  bg-black/30 absolute">
 
                 <div className="flex flex-col gap-[10px] items-center">
