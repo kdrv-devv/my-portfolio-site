@@ -7,6 +7,9 @@ import cssskill from "../../../img/cssskill.png";
 import redux from "../../../img/redux.png";
 import nodejs from "../../../img/nodejs-original.png";
 import nextjs from "../../../img/nextjs-original.png";
+import GithubCardShiny from "../../ui/github-card-shiny";
+
+const imgarr= [jsskill ,tsskill , htmlskill , cssskill , reactimg , redux , nodejs , nextjs] 
 
 const Skills = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
   (props, ref) => {
@@ -22,14 +25,13 @@ const Skills = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElem
           </h3>
 
           <div className="self-center skills-icon grid grid-cols-4 gap-[7em] max-[480px]:grid-cols-3 max-[379px]:grid-cols-2 items-center justify-center">
-            <img src={jsskill} alt="JavaScript logo" />
-            <img src={tsskill} alt="TypeScript logo" />
-            <img src={htmlskill} alt="HTML logo" />
-            <img src={cssskill} alt="CSS logo" />
-            <img src={reactimg} alt="React logo" />
-            <img src={redux} alt="Redux logo" />
-            <img src={nodejs} alt="Node.js logo" />
-            <img src={nextjs} alt="Next.js logo" />
+ 
+            {
+              imgarr.map((img) =>  <GithubCardShiny img={img}/>)
+            }
+           
+
+
           </div>
         </div>
       </section>
