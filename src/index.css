@@ -67,3 +67,22 @@
   width: auto;
 }
 
+.me{
+  pointer-events: none;        /* sichqonchani img ustida ishlashini bloklaydi */
+  user-select: none;           /* tanlab bo‘lmaydigan qiladi */
+  -webkit-user-drag: none;     /* drag qilib sudralmaydigan qiladi (Safari uchun) */
+  -webkit-user-select: none;   /* Safari va eski brauzerlar uchun */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-infinite {
+  animation: spin 50s linear infinite;
+}
