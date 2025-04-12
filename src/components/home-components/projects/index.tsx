@@ -2,7 +2,6 @@ import React from 'react';
 import toshqaychi from '../../../img/toshqaychi.png'
 // Import Swiper styles
 import { FaRegEye } from "react-icons/fa";
-import GithubCardShiny from '../../ui/github-card-shiny';
 
 // import required modules
 

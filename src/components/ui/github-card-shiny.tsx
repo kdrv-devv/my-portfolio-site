@@ -1,5 +1,4 @@
 import { useCallback, useRef } from "react";
-import { CheckCircle2 } from "lucide-react";
 
 import { useMousePosition } from "../../hooks/useMouseposition";
 import { cn } from "../../../lib/utils";
