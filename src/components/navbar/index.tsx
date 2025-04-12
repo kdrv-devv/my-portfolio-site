@@ -26,13 +26,13 @@ const Navbar: React.FC<NavbarProps> = ({
 
 }) => {
   return (
-    <header className=" header sticky top-0 z-50 shadow-[0px_4px_10px_rgba(0,0,0,0.2)]">
+    <header className=" header sticky top-0 z-[99] shadow-[0px_4px_10px_rgba(0,0,0,0.2)]">
       <div className="container  gap-[10px] flex items-center justify-between py-[25px] text-[10px] max-[1027px]:text-[8px]  max-[826px]:text-[7px] max-[800px]:py-[20px] max-[558px]:text-[6px] max-[508px]:text-[5px]  max-[317px]:text-[4.6px]">
         <Link to={"/"}>
           <h1 className="text-[5em] inline-block   max-[376px]:text-[4em] font-[700] text-[#f2f2f2] relative">
             KADIROV<span className="text-[#f7e018]">JS</span>
           </h1>
-          
+
         </Link>
 
         <nav className="header-center max-[740px]:hidden flex items-center gap-[2em] text-[2em] font-[700] text-[#fff] ">
