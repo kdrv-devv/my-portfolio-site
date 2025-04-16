@@ -10,7 +10,12 @@ const Aboutme = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivEle
 
                 <div className="aboutme-left  text-[10px] flex flex-col gap-[30px]  max-[1029px]:gap-[20px] w-[49%] max-[1270px]:text-[8px] max-[1133px]:text-[7px] max-[1029px]:text-[6px]  max-[858px]:text-[5px] max-[774px]:w-full  max-[774px]:items-center  max-[774px]:text-[7px]  max-[459px]:text-[5.8px] max-[470px]:gap-[10px]">
                     <h3 className="text-[#70ff00] text-[4.9em] sanserif font-[700] "> aboutMe<span className="sanserif text-[#fff]">( )</span> </h3>
-                    <p className="text-[1.8em] text-[#f2f2f2] font-[400]  max-[774px]:text-center" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer velit turpis, finibus eu condimentum ut, posuere at ipsum. Maecenas vel consequat mauris. Quisque sodales ipsum aliquet aliquam placerat. Proin varius condimentum sapien. Mauris quis elit nibh. Morbi ut facilisis nisl. Duis et leo ut odio rhoncus porta a a dui. Nullam arcu nibh, bibendum in enim sed, ullamcorper feugiat nunc. </p>
+                    <p className="text-[1.8em] text-[#f2f2f2] font-[400]  max-[774px]:text-center font-sans" >My name is Sarvarbek Qodirov, I am 18 years old and I am a Frontend Developer.
+I am interested in creating websites. I enjoy working with ReactJS and always try to make websites as user-friendly as possible. Currently, I’m focused on improving myself and learning new technologies.
+
+I’m also interested in teaching Frontend development to others. In the future, I hope to become a teacher and help young developers grow.
+
+I want the websites I create to be simple, beautiful, and easy for users to navigate. </p>
                 </div>
 
                 <div className="aboutme-right   items-end flex flex-col gap-[9px] text-[10px] w-[45%] max-[1270px]:text-[8px]  max-[1133px]:text-[7px] max-[1029px]:text-[6px] max-[858px]:text-[5px]  max-[774px]:w-full" >
