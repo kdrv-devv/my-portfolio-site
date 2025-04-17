@@ -5,6 +5,9 @@ import travelhut from "../../../img/travelhut.png";
 import dash from "../../../img/dashboard-login.png";
 import audiolibrary from "../../../img/audiolibrary.png";
 import techheim from "../../../img/techheim.png";
+import youtubeclone from "../../../img/youtubeclone.png";
+import shadcn from "../../../img/nextjs-light-black.png";
+import greenshop from "../../../img/greenshop.png";
 // Import Swiper styles
 
 import { PinContainer } from "../../ui/3d-pin";
@@ -93,7 +96,28 @@ const Projects = React.forwardRef<
             </div>
           </PinContainer>
 
+    {/* Greenshop qaychi */}
+    <PinContainer
+            title="https://greenshop.uz"
+            href=" https://greenshop-kdrv-wsrn.vercel.app/"
+          >
+            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[24em] max-[1028px]:w-[30em] h-[32em] max-[593px]:w-[42em]  max-[593px]:h-[35em]">
+              <h3 className="text-[1.5em] font-[700] !pb-2 !m-0  text-slate-100">
+                GREENSHOP
+              </h3>
+              <div className=" text-[1.2em] font-[500] !m-0 !p-0 ">
+                <span className="text-slate-500 ">REACT + TS + TAILWIND</span>
+              </div>
+              <img
+                className="h-[23em] rounded-md mt-[1em] "
+                src={greenshop}
+                alt="Greenshop project"
+              />
+            </div>
+          </PinContainer>
 
+
+         
           {/* tosh qaychi */}
           <PinContainer
             title="https://tosh-qaychi-qogoz.uz"
@@ -159,11 +183,52 @@ const Projects = React.forwardRef<
             </div>
           </PinContainer>
 
+          {/* Youtube clone */}
+          <PinContainer
+            title="https://youtube-clone.uz"
+            href="https://youtube-clone-ten-cyan.vercel.app/"
+          >
+            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[24em] max-[1028px]:w-[30em] h-[32em] max-[593px]:w-[42em]  max-[593px]:h-[35em]">
+              <h3 className="text-[1.5em] font-[700] !pb-2 !m-0  text-slate-100">
+                YouTube - clone
+              </h3>
+              <div className=" text-[1.2em] font-[500] !m-0 !p-0 ">
+                <p className="text-slate-500 ">REACT + JS + TAILWIND</p>
+                <i>no responsive</i>
+              </div>
+              <img
+                className="h-[23em] rounded-md mt-[1em] "
+                src={youtubeclone}
+                alt="Youtube clone img"
+              />
+            </div>
+          </PinContainer>
+
+          {/* ShadCn clone */}
+          <PinContainer
+            title="https://shadcn-clone.uz"
+            href="https://next-chnage-ui-color-7lhy.vercel.app/"
+          >
+            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[24em] max-[1028px]:w-[30em] h-[32em] max-[593px]:w-[42em]  max-[593px]:h-[35em]">
+              <h3 className="text-[1.5em] font-[700] !pb-2 !m-0  text-slate-100">
+                Shadcn - clone
+              </h3>
+              <div className=" text-[1.2em] font-[500] !m-0 !p-0 ">
+                <p className="text-slate-500 ">Next + TS + TAILWIND</p>
+                <i>no responsive</i>
+              </div>
+              <img
+                className="h-[23em] rounded-md mt-[1em] "
+                src={shadcn}
+                alt="Youtube clone img"
+              />
+            </div>
+          </PinContainer>
 
 
 
     
-
+          
 
         </div>
 
