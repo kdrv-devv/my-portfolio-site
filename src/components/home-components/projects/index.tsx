@@ -99,7 +99,7 @@ const Projects = React.forwardRef<
     {/* Greenshop qaychi */}
     <PinContainer
             title="https://greenshop.uz"
-            href=" https://greenshop-kdrv-wsrn.vercel.app/"
+            href="https://greenshop-kdrv.vercel.app"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[24em] max-[1028px]:w-[30em] h-[32em] max-[593px]:w-[42em]  max-[593px]:h-[35em]">
               <h3 className="text-[1.5em] font-[700] !pb-2 !m-0  text-slate-100">
