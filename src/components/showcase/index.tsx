@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import reactimg from "../../img/react-img.png";
 import typescript from "../../img/type-scriptimg.png";
 import jslogo from "../../img/jslogo.webp";
-import meimg from "../../img/bitiruvimg22_encoded.webp";
+import meimg from "../../img/me2.png";
 import * as THREE from "three";
 import NET from "vanta/dist/vanta.net.min";
 
